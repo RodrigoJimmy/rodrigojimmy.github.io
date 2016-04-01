@@ -1,7 +1,191 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="pt_br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>RODRIGO DE LIMA VIEIRA</title>
+
+    <meta name="description" content="Um blog sobre assuntos relacionados a desenvolvimento PHP e Linux SysAdmin">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/pygment_trac.css">
+
+    <link rel="preconnect" href="//ajax.googleapis.com" pr="1.0" />
+    <link rel="preconnect" href="//ssl.google-analytics.com" pr="0.8" />
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+
+<header class="site_header">
+    <div class="center">
+        <a class="site_logo" href="/">
+            <span class="site_logo__short_name">Rodrigo de Lima Vieira</span>
+            <span class="site_logo__long_name">Learning just for fun!</span>
+        </a>
+        <nav class="site_menu">
+            <label class="site_menu__dropdown_button" for="site_menu__dropdown_checkbox">Menu</label>
+            <input class="site_menu__dropdown_checkbox" id="site_menu__dropdown_checkbox" type="checkbox">
+            <ul class="site_menu__list">
+                <li class="site_menu__item">
+                    <a class="site_menu__link site_menu__link--active" href="/">Home</a>
+                </li>
+                <li class="site_menu__item">
+                    <a class="site_menu__link " href="/#/">Blog</a>
+                </li>
+                <li class="site_menu__item">
+                    <a class="site_menu__link " href="/#/">Curriculo</a>
+                </li>
+                <li class="site_menu__item">
+                    <a class="site_menu__link " href="/#/">Contato</a>
+                </li>
+                <li class="site_menu__item">
+                    <a class="site_menu__link " href="/#/">Sobre</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<div class="page_content">
+
+<div class="home_banner">
+    <div class="center">
+        <div class="home_banner__content">
+            <h1 class="home_banner__title">Estudando, só por prazer.</h1>
+            <p class="home_banner__intro">Bem vindo, aqui quero compartilhar pequenas doses de conhecimento para a sua e a minha felicidade diária. PHP, Linux, Python, Redes e tantas outras coisas bacanas. Um universo de possibilidades.</p>
+            <div class="home_banner__links">
+                <a class="home_banner__link" href="/#">Acesse o Blog</a>
+                <a class="home_banner__link" href="/#">Sobre mim</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="home_features">
+    <ul class="home_features__list">
+        <li class="home_features__item home_features__item--autoloading">
+            <div class="center">
+                <div class="home_features__content">
+                    <h2 class="home_features__title">PHP</h2>
+                    <p class="home_features__description">A linguagem PHP está passando por um renascimento. Vamos aprender como o PHP se tornou uma linguagem completa, madura, com suporte a namespaces e uma coleção de componentes reutilizáveis que não para de crescer.</p>
+                    <ul class="home_features__links">
+                        <a class="home_features__link" href="/#/">PHP-7: Novas features e boas práticas</a>
+                    </ul>
+                </div>
+                <div class="home_features__editor">
+                    <div class="home_features__chrome">
+                        <div class="home_features__chrome_dot"></div>
+                        <div class="home_features__chrome_dot"></div>
+                        <div class="home_features__chrome_dot"></div>
+                    </div>
+                    <code class="home_features__code">
+                        <div class="highlight"><pre><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span>
+
+<span class="k">use</span> <span class="nx">Vendor\Package\ClassName</span><span class="p">;</span>
+
+<span class="nv">$object</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ClassName</span><span class="p">();</span>
+</code></pre></div>
+                    </code>
+                </div>
+            </div>
+        </li>
+        <li class="home_features__item home_features__item--interfaces">
+            <div class="center">
+                <div class="home_features__content">
+                    <h2 class="home_features__title">Python</h2>
+                    <p class="home_features__description">Faltam palavras para descrever minha paixão por esta linguagem. Meu foco será em pequenos scripts utilitários para auxiliar o dia/dia de um SysAdmin. </p>
+                    <ul class="home_features__links">
+                        <a class="home_features__link" href="/#/">Python: www.python.org</a>
+                    </ul>
+                </div>
+                <div class="home_features__editor">
+                    <div class="home_features__chrome">
+                        <div class="home_features__chrome_dot"></div>
+                        <div class="home_features__chrome_dot"></div>
+                        <div class="home_features__chrome_dot"></div>
+                    </div>
+                    <code class="home_features__code">
+                        <div class="highlight"><pre><code class="language-php" data-lang="php"><span class="cp">#/usr/local/env python</span>
+
+<span class="k">import</span> <span class="nx">os</span><span class="p"></span>
+
+<span class="k">print</span><span class="nx">(os.platform)</span></code></pre></div>
+                    </code>
+                </div>
+            </div>
+        </li>
+
+        <li class="home_features__item home_features__item--coding_styles">
+            <div class="center">
+                <div class="home_features__content">
+                    <h2 class="home_features__title">SysAdmin</h2>
+                    <p class="home_features__description">Minha carreira como administrador de sistemas Linux desde 2005 e minha constante busca por aprimoramento vão render ótimos posts no Blog, fiquem ligados.</p>
+                    <ul class="home_features__links">
+                        <a class="home_features__link" href="/#/">Linux: vida de SysAdmin</a>
+                        <a class="home_features__link" href="/#/">Redes: Networking</a>
+                    </ul>
+                </div>
+                <div class="home_features__editor">
+                    <div class="home_features__chrome">
+                        <div class="home_features__chrome_dot"></div>
+                        <div class="home_features__chrome_dot"></div>
+                        <div class="home_features__chrome_dot"></div>
+                    </div>
+                    <code class="home_features__code">
+                        <div class="highlight"><pre><code class="language-php" data-lang="php"><span class="cp">#!/bin/bash</span>
+<span class="nx">
+for arquivo in ${@:-*.sxw}; do
+   unzip -q -d "$tmpdir" $arquivo
+   sed 's/<[^>]*>//g' "$tmpdir/content.xml"
+     echo "Achei em $arquivo"
+   rm -rf "$tmpdir"/*
+</span><span class="p">;</span>
+</code></pre></div>
+                    </code>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+
+
+
+
+
+
+</div>
+
+<div class="site_footer_links">
+    <div class="center">
+        <div class="site_footer_links__content">
+            <ul class="site_footer_links__list">
+                <li class="site_footer_links__item site_footer_links__item--twitter">
+                    <a class="site_footer_links__link" href="https://twitter.com/RodrigoJimmy">Siga-me no Twitter</a>
+                </li>
+                <li class="site_footer_links__item site_footer_links__item--github">
+                    <a class="site_footer_links__link" href="https://github.com/RodrigoJimmy">Meu perfil no Github</a>
+                </li>
+                <li class="site_footer_links__item site_footer_links__item--mailing_list">
+                    <a class="site_footer_links__link" href="https://groups.google.com/forum/?fromgroups#!forum/php-fig">Contato via E-mail</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<footer class="site_footer">
+    <div class="center">
+        <span class="site_footer__section">&copy; 2016 Rodrigo de Lima Vieira.</span> <span class="site_footer__section">Site inspirado por <a class="site_footer__link" href="http://www.php-fig.org/" target="_blank">PHP-FIG</a>.</span>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/main.js"></script>
 </html>
